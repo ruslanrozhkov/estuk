@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56b9550-f577-4aff-93fb-8011327d1d8a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/estuk.iml" afterPath="$PROJECT_DIR$/.idea/estuk.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/books/_book.html.erb" afterPath="$PROJECT_DIR$/app/views/books/_book.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/books/show.html.erb" afterPath="$PROJECT_DIR$/app/views/books/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/home.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/books_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/books_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/book.rb" afterPath="$PROJECT_DIR$/app/models/book.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -25,11 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="books_controller.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/books_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="725">
+              <caret line="70" column="28" lean-forward="false" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+            <state relative-caret-position="941">
+              <caret line="61" column="29" lean-forward="false" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -50,16 +62,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/books/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -105,7 +107,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pages_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pages_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -118,8 +120,8 @@
       <file leaf-file-name="book.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/book.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="36">
+              <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -153,16 +155,16 @@
         <option value="$PROJECT_DIR$/app/models/ability.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/books_controller.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/views/books/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/book.rb" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/views/books/_book.html.erb" />
         <option value="$PROJECT_DIR$/app/views/books/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/book.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/books_controller.rb" />
       </list>
     </option>
   </component>
@@ -607,12 +609,12 @@
       <updated>1483537593032</updated>
       <workItem from="1483537594388" duration="14703000" />
       <workItem from="1483619216051" duration="9304000" />
-      <workItem from="1483634148815" duration="1351000" />
+      <workItem from="1483634148815" duration="2384000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25358000" />
+    <option name="totallyTimeSpent" value="26391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -649,22 +651,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -953,34 +939,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/books_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="75" column="106" lean-forward="false" selection-start-line="75" selection-start-column="106" selection-end-line="75" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/books/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/book.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1037,6 +999,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170105183525_create_friendly_id_slugs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170105183641_add_slug_to_books.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="941">
+          <caret line="61" column="29" lean-forward="false" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/book.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/books_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="70" column="28" lean-forward="false" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
           <folding />
         </state>
       </provider>
