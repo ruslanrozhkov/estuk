@@ -1,4 +1,4 @@
-class TransactionController < ApplicationController
+class TransactionsController < ApplicationController
   def create
     book = Book.find_by!(slug: params[:slug])
     token = params[:stripeToken]
