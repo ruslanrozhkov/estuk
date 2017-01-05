@@ -6,6 +6,8 @@
     <%= f.input :author, required: true, label: false, placeholder: 'Author Name', input_html: {class: 'form-control'} %>
     <%= f.input :description, required: true, label: false, placeholder: 'Description', input_html: {class: 'form-control', row: 5} %>
     <%= f.input :price, required: true, label: false, placeholder: 'Price', input_html: {class: 'form-control'} %>
+    <%= f.input :image %>
+    <%= f.input :resource %>
     <div class="checkbox text-center">
       <p>Availability</p>
     <%= f.input :availability, required: false, label: false %>
