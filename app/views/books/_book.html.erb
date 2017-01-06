@@ -1,10 +1,10 @@
 <div class="col-md-3">
   <div class="thumbnail">
-    <%= link_to book_path(book.id) do %>
+    <%= link_to book_path(book) do %>
     <%= image_tag book.image.url(:original), class: 'img-responsive' %>
         <% end %>
     <div class="caption">
-      <%= link_to book_path(book.id) do %>
+      <%= link_to book_path(book) do %>
       <p><strong><%= book.name %></strong></p>
           <% end %>
       <p>$<%= book.price.to_f / 100 %></p>
